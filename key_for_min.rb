@@ -18,8 +18,9 @@ def key_for_min_value(name_hash)
     if (values_arr[ii]<min_value)
       min_value=values_arr[ii]
       min_key = keys_arr[ii]
-      ii+=1
+      
     end
+    ii+=1
   end
   #so the issue is that there is no general way to call a single random key value pair from a hash? so I made 2 parallel vectors instead
   return min_key
